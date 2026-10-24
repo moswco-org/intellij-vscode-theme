@@ -1,0 +1,6 @@
+_to_delete/**
+scripts/**
+.vscode/**
+**/*.tgz
+**/*.vsix
+**/.DS_Store

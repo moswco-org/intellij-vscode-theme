@@ -1,4 +1,4 @@
-// IntelliJ Dark IDE — colour theme for VS Code (PhpStorm New UI Dark)
+// Dev Dark — colour theme for VS Code (modern IDE dark)
 // GENERATED from intellij-light-ide-color-theme.json by scripts/build_dark_theme.py —
 // edit the light theme or the maps in that script, then regenerate.
 // Palette
@@ -7,7 +7,7 @@
 //   green #5fb865 · red #db5c5c · yellow #f2c55c
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "IntelliJ Dark IDE",
+  "name": "Dev Dark",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {

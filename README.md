@@ -1,22 +1,22 @@
-# IntelliJ Light IDE
+# Dev Themes (Light & Dark)
 
-A high-density, PhpStorm New UI–inspired theme for VS Code in **light** and **dark**. Ships three parts:
+A high-density, High-density, modern-IDE-inspired theme for VS Code in **light** and **dark**. Ships three parts:
 
 | Part | Picker | What it covers |
 | --- | --- | --- |
-| Colour themes | *Preferences: Color Theme* → **IntelliJ Light IDE** / **IntelliJ Dark IDE** | Editor, tabs, breadcrumbs, project tree, tool strip, run/terminal panel, status bar, JetBrains syntax colours (PHP-tuned) |
-| File icons | *Preferences: File Icon Theme* → **IntelliJ File Icons** | 68 New UI–style icons, with light and dark variants that switch automatically with the colour theme: language badges (PHP, JSON, TS…), folders, `.env`/lock files, `artisan`, Docker, tests, images… |
-| Product icons | *Preferences: Product Icon Theme* → **IntelliJ Product Icons** | Tool-window strip (project, commit, search, debug, plugins), chevrons, run ▶ / stop ■, breakpoints, bell, gear, branch, window controls |
+| Colour themes | *Preferences: Color Theme* → **Dev Light** / **Dev Dark** | Editor, tabs, breadcrumbs, project tree, tool strip, run/terminal panel, status bar, JetBrains syntax colours (PHP-tuned) |
+| File icons | *Preferences: File Icon Theme* → **Dev File Icons** | 68 New UI–style icons, with light and dark variants that switch automatically with the colour theme: language badges (PHP, JSON, TS…), folders, `.env`/lock files, `artisan`, Docker, tests, images… |
+| Product icons | *Preferences: Product Icon Theme* → **Dev Product Icons** | Tool-window strip (project, commit, search, debug, plugins), chevrons, run ▶ / stop ■, breakpoints, bell, gear, branch, window controls |
 
 ## Recommended settings
 
 ```jsonc
 {
-  "workbench.colorTheme": "IntelliJ Light IDE",
+  "workbench.colorTheme": "Dev Light",
   // or follow the OS appearance:
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "IntelliJ Light IDE",
-  "workbench.preferredDarkColorTheme": "IntelliJ Dark IDE",
+  "workbench.preferredLightColorTheme": "Dev Light",
+  "workbench.preferredDarkColorTheme": "Dev Dark",
   "workbench.iconTheme": "intellij-light-file-icons",
   "workbench.productIconTheme": "intellij-light-product-icons",
 
@@ -52,7 +52,7 @@ icons/intellij-product-icons.woff            product icon font
 scripts/build_*.py                           generators (see Rebuilding)
 ```
 
-The colour theme is split into numbered sections that follow the PhpStorm window top to bottom:
+The colour theme is split into numbered sections that follow the IDE window top to bottom:
 base → title bar / Search Everywhere → tool strip → project tree → tabs → breadcrumbs → editor & gutter →
 popups → bottom tool window → status bar → controls → menus → VCS → run/debug/tests → misc,
 then semantic tokens and TextMate scopes.
@@ -69,7 +69,7 @@ python3 scripts/build_product_icons.py .                                   # pro
 
 ## Install locally
 
-Copy this folder to `~/.vscode/extensions/intellij-light-ide`, restart VS Code and pick the three themes above.
+Copy this folder to `~/.vscode/extensions/mreromz.dev-themes`, restart VS Code and pick the three themes above.
 Or press F5 in this folder to launch an Extension Development Host.
 
 ## Package
@@ -78,3 +78,7 @@ Or press F5 in this folder to launch an Extension Development Host.
 npm i -g @vscode/vsce
 vsce package
 ```
+
+## License & notices
+
+MIT — see [LICENSE](LICENSE). This project is independent and is not affiliated with or endorsed by JetBrains s.r.o. "JetBrains", "IntelliJ" and "PhpStorm" are trademarks of JetBrains s.r.o.; the recommended font JetBrains Mono is a separate project under the SIL OFL.

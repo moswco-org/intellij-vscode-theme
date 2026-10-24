@@ -1,9 +1,9 @@
 {
-  "name": "intellij-light-ide",
-  "displayName": "IntelliJ IDE Themes (Light & Dark)",
-  "description": "PhpStorm New UI–inspired light and dark themes with JetBrains-style syntax colours, file icons and product icons.",
+  "name": "dev-themes",
+  "displayName": "Dev Themes (Light & Dark)",
+  "description": "High-density light and dark themes with PHP-tuned syntax colours, file icons and product icons, inspired by modern IDE layouts.",
   "version": "0.3.0",
-  "publisher": "your-publisher-id",
+  "publisher": "mreromz",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -13,25 +13,23 @@
   "keywords": [
     "theme",
     "light",
-    "intellij",
-    "jetbrains",
-    "phpstorm",
+    "dark",
     "php",
     "laravel",
     "icons",
     "file icons",
     "product icons",
-    "dark"
+    "color-theme"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "IntelliJ Light IDE",
+        "label": "Dev Light",
         "uiTheme": "vs",
         "path": "./themes/intellij-light-ide-color-theme.json"
       },
       {
-        "label": "IntelliJ Dark IDE",
+        "label": "Dev Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/intellij-dark-ide-color-theme.json"
       }
@@ -39,16 +37,30 @@
     "iconThemes": [
       {
         "id": "intellij-light-file-icons",
-        "label": "IntelliJ File Icons",
+        "label": "Dev File Icons",
         "path": "./icons/intellij-light-file-icons.json"
       }
     ],
     "productIconThemes": [
       {
         "id": "intellij-light-product-icons",
-        "label": "IntelliJ Product Icons",
+        "label": "Dev Product Icons",
         "path": "./icons/intellij-product-icons.json"
       }
     ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moswco-org/intellij-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moswco-org/intellij-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/moswco-org/intellij-vscode-theme#readme",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#F7F8FA",
+    "theme": "light"
   }
 }

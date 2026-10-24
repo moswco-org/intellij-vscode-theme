@@ -1,4 +1,4 @@
-"""Derive the IntelliJ Dark IDE colour theme from the light theme.
+"""Derive the Dev Dark colour theme from the light theme.
 
 Keeps the light file's sections and comments, swapping every colour through
 role-aware maps (New UI Dark palette). Fails loudly on any unmapped colour so
@@ -193,7 +193,7 @@ SYN_RULE = {  # by tokenColors "name"
     "Tag": "#d5b778",
 }
 
-HEADER = """// IntelliJ Dark IDE — colour theme for VS Code (PhpStorm New UI Dark)
+HEADER = """// Dev Dark — colour theme for VS Code (modern IDE dark)
 // GENERATED from intellij-light-ide-color-theme.json by scripts/build_dark_theme.py —
 // edit the light theme or the maps in that script, then regenerate.
 // Palette
@@ -219,8 +219,8 @@ for line in src[start:]:
         rule = m.group(1)
     if section == "syntax" and (line.strip() == "{" or (line.strip().startswith("{") and '"scope"' in line)):
         rule = None  # inline unnamed rule
-    if '"name": "IntelliJ Light IDE"' in line:
-        line = line.replace("IntelliJ Light IDE", "IntelliJ Dark IDE")
+    if '"name": "Dev Light"' in line:
+        line = line.replace("Dev Light", "Dev Dark")
     if '"type": "light"' in line:
         line = line.replace('"light"', '"dark"')
 

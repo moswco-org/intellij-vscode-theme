@@ -278,7 +278,7 @@ fb.setupCharacterMap(cmap)
 fb.setupGlyf(glyphs)
 fb.setupHorizontalMetrics({n: (UPM, 0) for n in [".notdef"] + names})
 fb.setupHorizontalHeader(ascent=1000, descent=0)
-fb.setupNameTable({"familyName": "IntelliJ Light Product Icons", "styleName": "Regular"})
+fb.setupNameTable({"familyName": "Dev Product Icons", "styleName": "Regular"})
 fb.setupOS2(sTypoAscender=1000, sTypoDescender=0, usWinAscent=1000, usWinDescent=0)
 fb.setupPost()
 fb.font.flavor = "woff"

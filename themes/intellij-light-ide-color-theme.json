@@ -1,5 +1,5 @@
-// IntelliJ Light IDE — colour theme for VS Code
-// Layout mirrors the PhpStorm New UI (light):
+// Dev Light — colour theme for VS Code
+// Layout mirrors the modern IDE (light):
 //   ┌ title bar + search-everywhere ─────────────────────────────────────┐
 //   │ tool strip │ project tree │ tabs · breadcrumbs · editor · hovers    │
 //   │            │              ├─ run / terminal / services panel ───────┤
@@ -10,7 +10,7 @@
 //   green #208a3c · red #e53935 · orange #e67e22
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "IntelliJ Light IDE",
+  "name": "Dev Light",
   "type": "light",
   "semanticHighlighting": true,
   "colors": {
