@@ -1,0 +1,54 @@
+{
+  "name": "intellij-light-ide",
+  "displayName": "IntelliJ IDE Themes (Light & Dark)",
+  "description": "PhpStorm New UI–inspired light and dark themes with JetBrains-style syntax colours, file icons and product icons.",
+  "version": "0.3.0",
+  "publisher": "your-publisher-id",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "intellij",
+    "jetbrains",
+    "phpstorm",
+    "php",
+    "laravel",
+    "icons",
+    "file icons",
+    "product icons",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "IntelliJ Light IDE",
+        "uiTheme": "vs",
+        "path": "./themes/intellij-light-ide-color-theme.json"
+      },
+      {
+        "label": "IntelliJ Dark IDE",
+        "uiTheme": "vs-dark",
+        "path": "./themes/intellij-dark-ide-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "intellij-light-file-icons",
+        "label": "IntelliJ File Icons",
+        "path": "./icons/intellij-light-file-icons.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "intellij-light-product-icons",
+        "label": "IntelliJ Product Icons",
+        "path": "./icons/intellij-product-icons.json"
+      }
+    ]
+  }
+}

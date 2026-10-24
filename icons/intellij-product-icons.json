@@ -1,0 +1,275 @@
+{
+  "fonts": [
+    {
+      "id": "intellij-product-icons",
+      "src": [
+        {
+          "path": "./intellij-product-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "account": {
+      "fontCharacter": "\\E006"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\E006"
+    },
+    "add": {
+      "fontCharacter": "\\E013"
+    },
+    "beaker": {
+      "fontCharacter": "\\E00C"
+    },
+    "bell": {
+      "fontCharacter": "\\E008"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\E009"
+    },
+    "check": {
+      "fontCharacter": "\\E022"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\E010"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\E00F"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\E00E"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\E011"
+    },
+    "chrome-close": {
+      "fontCharacter": "\\E028"
+    },
+    "chrome-maximize": {
+      "fontCharacter": "\\E02A"
+    },
+    "chrome-minimize": {
+      "fontCharacter": "\\E029"
+    },
+    "chrome-restore": {
+      "fontCharacter": "\\E02B"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\E01F"
+    },
+    "close": {
+      "fontCharacter": "\\E012"
+    },
+    "close-dirty": {
+      "fontCharacter": "\\E01F"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\E016"
+    },
+    "database": {
+      "fontCharacter": "\\E00B"
+    },
+    "debug": {
+      "fontCharacter": "\\E004"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\E004"
+    },
+    "debug-alt-small": {
+      "fontCharacter": "\\E004"
+    },
+    "debug-breakpoint": {
+      "fontCharacter": "\\E020"
+    },
+    "debug-breakpoint-disabled": {
+      "fontCharacter": "\\E021"
+    },
+    "debug-breakpoint-unverified": {
+      "fontCharacter": "\\E021"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\E01D"
+    },
+    "debug-disconnect": {
+      "fontCharacter": "\\E01E"
+    },
+    "debug-rerun": {
+      "fontCharacter": "\\E01B"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\E01B"
+    },
+    "debug-start": {
+      "fontCharacter": "\\E01D"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\E01E"
+    },
+    "ellipsis": {
+      "fontCharacter": "\\E014"
+    },
+    "error": {
+      "fontCharacter": "\\E023"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\E001"
+    },
+    "explorer-view-twistie": {
+      "fontCharacter": "\\E010"
+    },
+    "extensions": {
+      "fontCharacter": "\\E005"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\E005"
+    },
+    "file": {
+      "fontCharacter": "\\E01C"
+    },
+    "files": {
+      "fontCharacter": "\\E001"
+    },
+    "filter": {
+      "fontCharacter": "\\E019"
+    },
+    "gear": {
+      "fontCharacter": "\\E007"
+    },
+    "git-branch": {
+      "fontCharacter": "\\E027"
+    },
+    "git-commit": {
+      "fontCharacter": "\\E003"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\E01C"
+    },
+    "info": {
+      "fontCharacter": "\\E025"
+    },
+    "kebab-vertical": {
+      "fontCharacter": "\\E015"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\E026"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\E026"
+    },
+    "list-tree": {
+      "fontCharacter": "\\E00D"
+    },
+    "more": {
+      "fontCharacter": "\\E014"
+    },
+    "new-file": {
+      "fontCharacter": "\\E017"
+    },
+    "new-folder": {
+      "fontCharacter": "\\E018"
+    },
+    "notifications-clear": {
+      "fontCharacter": "\\E012"
+    },
+    "notifications-view-icon": {
+      "fontCharacter": "\\E008"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "\\E00D"
+    },
+    "pass": {
+      "fontCharacter": "\\E022"
+    },
+    "play": {
+      "fontCharacter": "\\E01D"
+    },
+    "plus": {
+      "fontCharacter": "\\E013"
+    },
+    "primitive-dot": {
+      "fontCharacter": "\\E01F"
+    },
+    "primitive-square": {
+      "fontCharacter": "\\E01E"
+    },
+    "refresh": {
+      "fontCharacter": "\\E01B"
+    },
+    "remove-close": {
+      "fontCharacter": "\\E012"
+    },
+    "run": {
+      "fontCharacter": "\\E01D"
+    },
+    "run-all": {
+      "fontCharacter": "\\E01D"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\E004"
+    },
+    "search": {
+      "fontCharacter": "\\E002"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\E002"
+    },
+    "settings": {
+      "fontCharacter": "\\E007"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\E007"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\E007"
+    },
+    "source-control": {
+      "fontCharacter": "\\E003"
+    },
+    "source-control-sync": {
+      "fontCharacter": "\\E01B"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\E003"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\E01A"
+    },
+    "stop-circle": {
+      "fontCharacter": "\\E01E"
+    },
+    "symbol-structure": {
+      "fontCharacter": "\\E00D"
+    },
+    "sync": {
+      "fontCharacter": "\\E01B"
+    },
+    "terminal": {
+      "fontCharacter": "\\E00A"
+    },
+    "terminal-view-icon": {
+      "fontCharacter": "\\E00A"
+    },
+    "testing-passed-icon": {
+      "fontCharacter": "\\E022"
+    },
+    "testing-run-icon": {
+      "fontCharacter": "\\E01D"
+    },
+    "testing-view-icon": {
+      "fontCharacter": "\\E00C"
+    },
+    "toolbar-more": {
+      "fontCharacter": "\\E014"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\E010"
+    },
+    "warning": {
+      "fontCharacter": "\\E024"
+    }
+  }
+}
